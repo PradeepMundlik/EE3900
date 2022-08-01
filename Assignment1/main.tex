@@ -251,7 +251,7 @@ Write the python code for removal of out of band noise and execute the code.
 \solution
 We can get code from below link-
 \begin{lstlisting}
-     https://github.com/PradeepMundlik/EE3900/tree/master/Assignment1/codes
+     https://github.com/PradeepMundlik/EE3900/tree/master/Assignment1/codes/q2/Cancel-noise.py
 \end{lstlisting}
 % \lstinputlisting{/codes/Cancel_noise.py}
 
@@ -311,114 +311,132 @@ Sketch $y(n)$.
 \end{figure}
 \end{enumerate}
 
-% \section{$Z$-transform}
-% \begin{enumerate}[label=\thesection.\arabic*]
-% \item The $Z$-transform of $x(n)$ is defined as
-% %
-% \begin{equation}
-% \label{eq:z_trans}
-% X(z)={\mathcal {Z}}\{x(n)\}=\sum _{n=-\infty }^{\infty }x(n)z^{-n}
-% \end{equation}
-% %
-% Show that
-% \begin{equation}
-% \label{eq:shift1}
-% {\mathcal {Z}}\{x(n-1)\} = z^{-1}X(z)
-% \end{equation}
-% and find
-% \begin{equation}
-% 	{\mathcal {Z}}\{x(n-k)\} 
-% \end{equation}
-% \solution From \eqref{eq:z_trans},
-% \begin{align}
-% {\mathcal {Z}}\{x(n-k)\} &=\sum _{n=-\infty }^{\infty }x(n-1)z^{-n}
-% \\
-% &=\sum _{n=-\infty }^{\infty }x(n)z^{-n-1} = z^{-1}\sum _{n=-\infty }^{\infty }x(n)z^{-n}
-% \end{align}
-% resulting in \eqref{eq:shift1}. Similarly, it can be shown that
-% %
-% \begin{equation}
-% \label{eq:z_trans_shift}
-% 	{\mathcal {Z}}\{x(n-k)\} = z^{-k}X(z)
-% \end{equation}
-% \item Find
-% %
-% \begin{equation}
-% H(z) = \frac{Y(z)}{X(z)}
-% \end{equation}
-% %
-% from  \eqref{eq:iir_filter} assuming that the $Z$-transform is a linear operation.
-% \\
-% \solution  Applying \eqref{eq:z_trans_shift} in \eqref{eq:iir_filter},
-% \begin{align}
-% Y(z) + \frac{1}{2}z^{-1}Y(z) &= X(z)+z^{-2}X(z)
-% \\
-% \implies \frac{Y(z)}{X(z)} &= \frac{1 + z^{-2}}{1 + \frac{1}{2}z^{-1}}
-% \label{eq:freq_resp}
-% \end{align}
-% %
-% \item Find the Z transform of 
-% \begin{equation}
-% \delta(n)
-% =
-% \begin{cases}
-% 1 & n = 0
-% \\
-% 0 & \text{otherwise}
-% \end{cases}
-% \end{equation}
-% and show that the $Z$-transform of
-% \begin{equation}
-% \label{eq:unit_step}
-% u(n)
-% =
-% \begin{cases}
-% 1 & n \ge 0
-% \\
-% 0 & \text{otherwise}
-% \end{cases}
-% \end{equation}
-% is
-% \begin{equation}
-% U(z) = \frac{1}{1-z^{-1}}, \quad \abs{z} > 1
-% \end{equation}
-% \solution It is easy to show that
-% \begin{equation}
-% \delta(n) \ztrans 1
-% \end{equation}
-% and from \eqref{eq:unit_step},
-% \begin{align}
-% U(z) &= \sum _{n= 0}^{\infty}z^{-n}
-% \\
-% &=\frac{1}{1-z^{-1}}, \quad \abs{z} > 1
-% \end{align}
-% using the fomula for the sum of an infinite geometric progression.
-% %
-% \item Show that 
-% \begin{equation}
-% \label{eq:anun}
-% a^nu(n) \ztrans \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
-% \end{equation}
-% %
-% \item 
-% Let
-% \begin{equation}
-% H\brak{e^{\j \omega}} = H\brak{z = e^{\j \omega}}.
-% \end{equation}
-% Plot $\abs{H\brak{e^{\j \omega}}}$.  Comment.  $H(e^{\j \omega})$ is
-% known as the {\em Discret Time Fourier Transform} (DTFT) of $x(n)$.
-% \\
-% \solution The following code plots Fig. \ref{fig:dtft}.
-% \begin{lstlisting}
-% wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/dtft.py
-% \end{lstlisting}
-% \begin{figure}[!ht]
-% \centering
-% \includegraphics[width=\columnwidth]{./figs/dtft}
-% \caption{$\abs{H\brak{e^{\j\omega}}}$}
-% \label{fig:dtft}
-% \end{figure}
-% \end{enumerate}
+\section{$Z$-transform}
+\begin{enumerate}[label=\thesection.\arabic*]
+\item The $Z$-transform of $x(n)$ is defined as
+%
+\begin{equation}
+\label{eq:z_trans}
+X(z)={\mathcal {Z}}\{x(n)\}=\sum _{n=-\infty }^{\infty }x(n)z^{-n}
+\end{equation}
+%
+Show that
+\begin{equation}
+\label{eq:shift1}
+{\mathcal {Z}}\{x(n-1)\} = z^{-1}X(z)
+\end{equation}
+and find
+\begin{equation}
+	{\mathcal {Z}}\{x(n-k)\} 
+\end{equation}
+\solution From \eqref{eq:z_trans},
+\begin{align}
+{\mathcal {Z}}\{x(n-1)\} &=\sum _{n=-\infty }^{\infty }x(n-1)z^{1-n}
+\\
+&=\sum _{n=-\infty }^{\infty }x(n)z^{-n-1} = z^{-1}\sum _{n=-\infty }^{\infty }x(n)z^{-n} \\
+&= z^{-1}X(z)
+\end{align}
+resulting in \eqref{eq:shift1}. Similarly, it can be shown that
+%
+\begin{align}
+\label{eq:z_trans_shift}
+     {\mathcal {Z}}\{x(n-k)\} &= \sum _{n=-\infty }^{\infty }x(n-k)z^{k-n} \\
+     &= \sum _{n=-\infty }^{\infty }x(n)z^{-n-k} \\
+     &= z^{-k} \sum _{n=-\infty }^{\infty }x(n)z^{-n} \\         
+	&=z^{-k}X(z)
+\end{align}
+\item Find
+%
+\begin{equation}
+H(z) = \frac{Y(z)}{X(z)}
+\end{equation}
+%
+from  \eqref{eq:iir_filter} assuming that the $Z$-transform is a linear operation.
+\\
+\solution  Applying \eqref{eq:z_trans_shift} in \eqref{eq:iir_filter},
+\begin{align}
+Y(z) + \frac{1}{2}z^{-1}Y(z) &= X(z)+z^{-2}X(z)
+\\
+\implies \frac{Y(z)}{X(z)} &= \frac{1 + z^{-2}}{1 + \frac{1}{2}z^{-1}}
+\label{eq:freq_resp}
+\end{align}
+%
+\item Find the Z transform of 
+\begin{equation}
+\delta(n)
+=
+\begin{cases}
+1 & n = 0
+\\
+0 & \text{otherwise}
+\end{cases}
+\end{equation}
+and show that the $Z$-transform of
+\begin{equation}
+\label{eq:unit_step}
+u(n)
+=
+\begin{cases}
+1 & n \ge 0
+\\
+0 & \text{otherwise}
+\end{cases}
+\end{equation}
+is
+\begin{equation}
+U(z) = \frac{1}{1-z^{-1}}, \quad \abs{z} > 1
+\end{equation}
+\solution 
+\begin{align}
+     {\mathcal {Z}}\{\delta(n)\} &=\sum _{n=-\infty }^{\infty }\delta(n)z^{-n} \\
+     &= 1 \\
+\delta(n) \ztrans 1
+\end{align}
+and from \eqref{eq:unit_step},
+\begin{align}
+U(z) &= \sum _{n= 0}^{\infty}z^{-n}
+\\
+&=\frac{1}{1-z^{-1}}, \quad \abs{z} > 1
+\end{align}
+using the fomula for the sum of an infinite geometric progression.
+%
+\item Show that 
+\begin{equation}
+     \label{eq:anun}
+     a^nu(n) \ztrans \frac{1}{1-az^{-1}} \quad \abs{z} > \abs{a}
+\end{equation}
+\solution 
+\begin{align}
+     {\mathcal {Z}}\{a^nu(n)\} &=\sum _{n=-\infty }^{\infty }a^nu(n)z^{-n} \\
+     &= \sum _{n=0}^{\infty }a^nz^{-n} \\
+     &= \sum _{n=0}^{\infty } \left(az^{-1}\right)^n \\
+     &= \frac{1}{1-az^{-1}}, \quad \abs{az^{-1}} < 1
+\end{align}
+using the fomula for the sum of an infinite geometric progression.
+
+
+%
+\item 
+Let
+\begin{equation}
+H\brak{e^{\j \omega}} = H\brak{z = e^{\j \omega}}.
+\end{equation}
+Plot $\abs{H\brak{e^{\j \omega}}}$.  Comment.  $H(e^{\j \omega})$ is
+known as the {\em Discret Time Fourier Transform} (DTFT) of $x(n)$.
+\\
+\solution The following code plots Fig. \ref{fig:dtft}.
+\begin{lstlisting}
+code of dtft
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{figs/q4/dtft.pdf}
+\caption{$\abs{H\brak{e^{\j\omega}}}$}
+\label{fig:dtft}
+\end{figure}
+\end{enumerate}
+
+
 % \section{Impulse Response}
 % \begin{enumerate}[label=\thesection.\arabic*]
 % \item \label{prob:impulse_resp}

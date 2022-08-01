@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1659357669 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1659357669
+["pdflatex"] 1659374045 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1659374045
   "/etc/texmf/web2c/texmf.cnf" 1656053308 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1659357668 19366 9175bc3d6499196658f468e8c86c0c7b ""
+  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1659374044 19005 63988a4503deb46836928116d586e087 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -142,10 +142,13 @@
   "figs/q3/xn.pdf" 1659328003 8981 756f5df220a1f3acc7bc5be8372d03fe ""
   "figs/q3/yn.pdf" 1659328012 9629 5cf9babf65d8b125f9377965108ef611 ""
   "figs/q4/dtft.pdf" 1659357503 15628 5691e4d73d8b59da87472dea1655399e ""
-  "main.aux" 1659357669 2551 e838368304a94e7d98a49bfcecadce18 "pdflatex"
-  "main.out" 1659357669 506 8ceb33a7d77c2a03b6c926238e209511 "pdflatex"
-  "main.tex" 1659357668 19366 9175bc3d6499196658f468e8c86c0c7b ""
-  "main.toc" 1659357669 291 971edeabd89f4a60f75e09c90f26c3da "pdflatex"
+  "figs/q5/hn.pdf" 1659373286 14300 bd2f9b3062112822cda16350a6209866 ""
+  "figs/q5/hndef.pdf" 1659373701 14354 8a40f7fde5e045648420616892ba76c1 ""
+  "figs/q5/ynconv.pdf" 1659373906 14207 d5e2a635328c4f4dc8983855023afe77 ""
+  "main.aux" 1659374045 4072 b1054122a1d6c74abde0c4d85349daf9 "pdflatex"
+  "main.out" 1659374045 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
+  "main.tex" 1659374044 19005 63988a4503deb46836928116d586e087 ""
+  "main.toc" 1659374045 430 e159e07c4dd33078b96966e1bee2becb "pdflatex"
   (generated)
   "main.aux"
   "main.log"

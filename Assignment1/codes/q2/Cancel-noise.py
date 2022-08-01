@@ -24,4 +24,4 @@ output_signal = signal.filtfilt(b, a, input_signal)
 #output_signal = signal.lfilter(b, a, input_signal)
 
 #write the output signal into .wav file
-sf.write('../sound/Sound_With_ReducedNoise.wav', output_signal, fs) 
+sf.write('../../sound/Sound_With_ReducedNoise.wav', output_signal, fs) 

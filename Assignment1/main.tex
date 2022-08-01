@@ -267,34 +267,50 @@ The output of the python script in Problem \ref{prob:output} is the audio file S
 \\
 \solution The key strokes as well as background noise is subdued in the audio.  Also,  the signal is blank for frequencies above 5.1 kHz.
 \end{enumerate}
-% \section{Difference Equation}
-% \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
-% \item Let
-% \begin{equation}
-% x(n) = \cbrak{\underset{\uparrow}{1},2,3,4,2,1}
-% \end{equation}
-% Sketch $x(n)$.
-% \item Let
-% \begin{multline}
-% \label{eq:iir_filter}
-% y(n) + \frac{1}{2}y(n-1) = x(n) + x(n-2), 
-% \\
-%  y(n) = 0, n < 0
-% \end{multline}
-% Sketch $y(n)$.
-% \\
-% \solution The following code yields Fig. \ref{fig:xnyn}.
-% \begin{lstlisting}
-% wget https://github.com/gadepall/EE1310/raw/master/filter/codes/xnyn.py
-% \end{lstlisting}
-% \begin{figure}[!ht]
-% \begin{center}
-% \includegraphics[width=\columnwidth]{./figs/xnyn}
-% \end{center}
-% \captionof{figure}{}
-% \label{fig:xnyn}	
-% \end{figure}
-% \end{enumerate}
+
+
+\section{Difference Equation}
+\begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
+\item Let
+\begin{equation}
+x(n) = \cbrak{\underset{\uparrow}{1},2,3,4,2,1}
+\end{equation}
+Sketch $x(n)$. \\
+\solution 
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=\columnwidth]{figs/q3/xn.pdf}
+\end{center}
+\captionof{figure}{}
+\label{fig:xn}	
+\end{figure}
+\begin{lstlisting}
+     code of xn
+\end{lstlisting}
+
+\item Let
+\begin{multline}
+\label{eq:iir_filter}
+y(n) + \frac{1}{2}y(n-1) = x(n) + x(n-2), 
+\\
+ y(n) = 0, n < 0
+\end{multline}
+Sketch $y(n)$.
+\\
+\solution The following code yields Fig. \ref{fig:yn}.
+\begin{lstlisting}
+code of yn
+\end{lstlisting}
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=\columnwidth]{figs/q3/yn.pdf}
+\end{center}
+\captionof{figure}{}
+\label{fig:xnyn}	
+\end{figure}
+\end{enumerate}
+
 % \section{$Z$-transform}
 % \begin{enumerate}[label=\thesection.\arabic*]
 % \item The $Z$-transform of $x(n)$ is defined as

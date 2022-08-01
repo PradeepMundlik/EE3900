@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.1)  1 AUG 2022 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.1)  1 AUG 2022 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -725,14 +725,11 @@ File: figs/q3/xn.pdf Graphic file (type pdf)
 <use figs/q3/xn.pdf>
 Package pdftex.def Info: figs/q3/xn.pdf  used on input line 283.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-LaTeX Warning: Reference `fig:yn' on page 1 undefined on input line 301.
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./figs/q3/xn.pdf>]
-<figs/q3/yn.pdf, id=85, 462.52798pt x 346.89601pt>
+<figs/q3/yn.pdf, id=86, 462.52798pt x 346.89601pt>
 File: figs/q3/yn.pdf Graphic file (type pdf)
 <use figs/q3/yn.pdf>
 Package pdftex.def Info: figs/q3/yn.pdf  used on input line 307.
@@ -740,25 +737,22 @@ Package pdftex.def Info: figs/q3/yn.pdf  used on input line 307.
  [2
 
  <./figs/q3/yn.pdf>] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 205E383B45087A93D3CBFF5D7ACB82FC;408.
  ) 
 Here is how much of TeX's memory you used:
  16162 strings out of 478287
- 253522 string characters out of 5849290
- 814926 words of memory out of 5000000
+ 253519 string characters out of 5849290
+ 826926 words of memory out of 5000000
  34089 multiletter control sequences out of 15000+600000
  538221 words of font info for 178 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,7n,63p,292b,1436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 78580 bytes).
+Output written on main.pdf (2 pages, 78332 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
  35 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.1)  1 AUG 2022 09:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.1)  1 AUG 2022 09:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,15 +728,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 49CE4988226970CBB2B8C15CD075C1B0;267.
  ) 
 Here is how much of TeX's memory you used:
- 16120 strings out of 478287
- 252901 string characters out of 5849290
- 800926 words of memory out of 5000000
- 34064 multiletter control sequences out of 15000+600000
+ 16118 strings out of 478287
+ 252882 string characters out of 5849290
+ 798926 words of memory out of 5000000
+ 34062 multiletter control sequences out of 15000+600000
  536845 words of font info for 176 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,6n,63p,292b,1436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (1 page, 50928 bytes).
+Output written on main.pdf (1 page, 50922 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

@@ -469,6 +469,7 @@ using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 \caption{$h(n)$ as the inverse of $H(z)$}
 \label{fig:hn}
 \end{figure}
+Fron fig.\ref*{fig:hn} it is clear that, $h(n)$ converges to 0 and it is bounded as well.
 %
 \item The system with $h(n)$ is defined to be stable if
 \begin{equation}
@@ -476,7 +477,22 @@ using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 \end{equation}
 Is the system defined by \eqref{eq:iir_filter} stable for the impulse response in \eqref{eq:impulse_resp}? \\
 \solution
-As $\sum_{n=-\infty}^{\infty}h(n) < \infty$ , the system given is stable.
+\begin{multline}
+     \sum_{n=-\infty}^{\infty}h(n) = \sum_{n=-\infty}^{\infty} \brak{-\frac12}^n u(n) \\
+     + \sum_{n=-\infty}^{\infty} \brak{-\frac12}^{n-2} u(n-2)
+\end{multline}
+\begin{align}
+     \sum_{n=-\infty}^{\infty}h(n) = \sum_{n=0}^{\infty}\brak{-\frac12}^n + \sum_{n=2}^{\infty}\brak{-\frac12}^{n-2}
+\end{align}
+
+These are both sums of infinite geometric progressions with first terms $1$ and common ratios $-\frac12$
+\begin{align}
+     \sum_{n=-\infty}^{\infty}h(n) &= \frac{1}{1 - \brak{-\frac12}} + \frac{1}{1 - \brak{-\frac12}} \\
+     &= \frac{4}{3} < \infty
+\end{align}
+
+Therefore, the system is stable.
+
 \item 
 Compute and sketch $h(n)$ using 
 \begin{equation}
@@ -486,7 +502,47 @@ h(n) + \frac{1}{2}h(n-1) = \delta(n) + \delta(n-2),
 %
 This is the definition of $h(n)$.
 \\
-\solution The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig. 
+\solution 
+\begin{equation}
+     h(0) = 1
+\end{equation}
+
+Now, for $n = 1$,
+\begin{align}
+     h(1) + \frac12 h(0) &= \delta(1) + \delta(-1) = 0 \\
+     \implies h(1) &= - \frac{1}{2} h(0) = -\frac{1}{2}
+\end{align}
+
+For $n = 2$,
+\begin{align}
+     h(2) + \frac12 h(1) &= \delta(2) + \delta(0) = 1 \\
+     \implies h(2) &= 1 - \frac{1}{2} h(1) = \frac{3}{2}
+\end{align}
+
+For $n > 2$, the right hand side of the equation is always zero. Thus,
+\begin{align}
+     h(n) &= -\frac{1}{2} h(n-1) \qquad n > 2 \\
+     h(3) &= \frac{3}{2} \brak{-\frac12} \\
+     h(4) &= \frac{3}{2} \brak{-\frac12}^2 \\
+     &~\vdots \\
+     h(n) &= \frac{3}{2} \brak{-\frac12}^{n-2}
+\end{align}
+
+Therefore,
+\begin{align}
+     h(n) = 
+     \begin{cases}
+          1 & n = 0 \\
+          -\dfrac{1}{2} & n = 1 \\
+          \dfrac{3}{2} \brak{-\dfrac12}^{n-2} & n \ge 2
+     \end{cases}
+\end{align}
+
+Thus, it is bounded and convergent to $0$
+\begin{equation}
+     \lim_{n \to \infty} h(n) = 0
+\end{equation} 
+The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig. 
 \ref{fig:hn}. 
 %
 \begin{lstlisting}
@@ -503,14 +559,19 @@ This is the definition of $h(n)$.
 %
 \begin{equation}
 \label{eq:convolution}
-y(n) = x(n)*h(n) = \sum_{n=-\infty}^{\infty}x(k)h(n-k)
+y(n) = x(n)*h(n) = \sum_{k=-\infty}^{\infty}x(k)h(n-k)
 \end{equation}
 %
 Comment. The operation in \eqref{eq:convolution} is known as
 {\em convolution}.
 %
 \\
-\solution The following code plots Fig. \ref{fig:ynconv}. Note that this is the same as 
+\solution 
+\begin{align}
+     x(n)*h(n) &= \sum_{k=-\infty}^{\infty}x(k)h(n-k) \\
+     &= \sum_{k=0}^{5}x(k)h(n-k)
+\end{align}
+The following code plots Fig. \ref{fig:ynconv}. Note that this is the same as 
 $y(n)$ in  Fig. 
 \ref{fig:yn}. 
 %
@@ -527,6 +588,25 @@ $y(n)$ in  Fig.
 \begin{equation}
 y(n) =  \sum_{n=-\infty}^{\infty}x(n-k)h(k)
 \end{equation}
+\solution 
+\begin{equation}
+     y(n) = x(n)*h(n) = \sum_{k=-\infty}^{\infty}x(k)h(n-k)
+\end{equation}
+
+Substitute $k = n - i$
+\begin{align}
+      \sum_{k=-\infty}^{\infty}x(k)h(n-k) &=  \sum_{n - i =-\infty}^{\infty}x(n-i)h(n-(n-i)) \\
+      &= \sum_{i = \infty}^{-\infty} x(n - i) h(i) \\
+      &= \sum_{i = -\infty}^{\infty} x(n - i) h(i)
+\end{align}
+since the order of limits does not matter for a summation.
+Thus,
+\begin{align}
+     \sum_{k=-\infty}^{\infty}x(k)h(n-k) &= \sum_{k=-\infty}^{\infty}x(n-k)h(k) \\
+     \implies x(n) * h(n) &= h(n) * x(n)
+\end{align}
+
+Therefore, convolution is commutative.
 \end{enumerate}
 %
 \section{DFT and FFT}

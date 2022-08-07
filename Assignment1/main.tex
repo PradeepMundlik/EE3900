@@ -298,13 +298,18 @@ y(n) + \frac{1}{2}y(n-1) = x(n) + x(n-2),
 \end{multline}
 Sketch $y(n)$.
 \\
-\solution The following code yields Fig. \ref{fig:yn}.
-\begin{lstlisting}
-     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q3/yn.py
-\end{lstlisting}
+\solution 
 The c code for yn:
 \begin{lstlisting}
-     
+     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q3/yn.c
+\end{lstlisting}
+Data file for $Y(n)$:
+\begin{lstlisting}
+     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q3/yn.dat
+\end{lstlisting}
+The following code yields Fig. \ref{fig:yn}.
+\begin{lstlisting}
+     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q3/yn.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \begin{center}
@@ -620,11 +625,26 @@ Compute
 \begin{equation}
 X(k) \define \sum _{n=0}^{N-1}x(n) e^{-\j2\pi kn/N}, \quad k = 0,1,\dots, N-1
 \end{equation}
-and $H(k)$ using $h(n)$.
+and $H(k)$ using $h(n)$. \\
+\solution
+The following code plots Fig.\ref*{fig:6.1} 
+\begin{lstlisting}
+     
+\end{lstlisting}
+\begin{figure}[!ht]
+     \centering
+     \includegraphics[width=\columnwidth]{figs/q6/6.1.pdf}
+     \caption{Discret Fourier Transform}
+     \label{fig:6.1}
+\end{figure}
+
 \item Compute 
 \begin{equation}
 Y(k) = X(k)H(k)
 \end{equation}
+\solution
+
+
 \item Compute
 \begin{equation}
  y\brak{n}={\frac {1}{N}}\sum _{k=0}^{N-1}Y\brak{k}\cdot e^{\j 2\pi kn/N},\quad n = 0,1,\dots, N-1

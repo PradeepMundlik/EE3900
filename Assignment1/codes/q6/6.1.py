@@ -1,7 +1,3 @@
-# Plotting the discrete Fourier transforms of x(n) and h(n)
-
-# Name: Ankit Saha
-# Roll number: AI21BTECH11004
 
 import numpy as np
 import matplotlib.pyplot as plt

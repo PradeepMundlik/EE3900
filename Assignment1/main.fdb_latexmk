@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1659851839 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1659851840
+["pdflatex"] 1659855001 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1659855001
   "/etc/texmf/web2c/texmf.cnf" 1656053308 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1659851838 21629 8ff55ec78893f62a67ce7d37173e1722 ""
+  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1659855001 22135 d5bee6e9a2a7722ebfc2da545ee744fb ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -144,11 +144,12 @@
   "figs/q4/dtft.pdf" 1659357503 15628 5691e4d73d8b59da87472dea1655399e ""
   "figs/q5/hn.pdf" 1659373286 14300 bd2f9b3062112822cda16350a6209866 ""
   "figs/q5/hndef.pdf" 1659373701 14354 8a40f7fde5e045648420616892ba76c1 ""
-  "figs/q5/ynconv.pdf" 1659373906 14207 d5e2a635328c4f4dc8983855023afe77 ""
-  "main.aux" 1659851840 4074 2f8940606a460f1af33355e3ea95865f "pdflatex"
-  "main.out" 1659851840 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
-  "main.tex" 1659851838 21629 8ff55ec78893f62a67ce7d37173e1722 ""
-  "main.toc" 1659851840 430 41eaf2723d475e7907837b3219a36e4c "pdflatex"
+  "figs/q5/ynconv.pdf" 1659853506 14207 a527ea60ca42f8719bc38ab4e7d42b23 ""
+  "figs/q6/6.1.pdf" 1659760773 15512 d688f509cda7b2f90762ca35bf1e27f1 ""
+  "main.aux" 1659855001 4318 9e15acba52f23b1271ad3bff8f51981a "pdflatex"
+  "main.out" 1659855001 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
+  "main.tex" 1659855001 22135 d5bee6e9a2a7722ebfc2da545ee744fb ""
+  "main.toc" 1659855001 430 41eaf2723d475e7907837b3219a36e4c "pdflatex"
   (generated)
   "main.aux"
   "main.log"

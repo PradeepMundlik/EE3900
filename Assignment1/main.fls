@@ -962,6 +962,11 @@ INPUT ./figs/q5/ynconv.pdf
 INPUT figs/q5/ynconv.pdf
 INPUT ./figs/q5/ynconv.pdf
 INPUT ./figs/q5/ynconv.pdf
+INPUT ./figs/q6/6.1.pdf
+INPUT ./figs/q6/6.1.pdf
+INPUT figs/q6/6.1.pdf
+INPUT ./figs/q6/6.1.pdf
+INPUT ./figs/q6/6.1.pdf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

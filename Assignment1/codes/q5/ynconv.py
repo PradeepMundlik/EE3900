@@ -19,41 +19,24 @@ x=np.array([1.0,2.0,3.0,4.0,2.0,1.0])
 nx = len(x)
 
 padding = np.zeros(nx-1,x.dtype)
-print(h)
-f_col = np.concatenate(h,padding)
-f_row = np.concatenate(h[0],padding)
+# print(h)
+a = np.array([h[0]])
+f_col = np.pad(h,(0,nx-1),'constant', constant_values=(0))
+f_row = np.pad(a,(0,nx-1),'constant', constant_values=(0))
 
 H = linalg.toeplitz(f_col, f_row)
-print(f_col)
-print(f_row)
-print(H)
 
-print(H.shape)
-
-
-# th = linalg.toeplitz(h)
-# print(repr(th))
-# print(h.shape)
-# print(th)
-# y = np.matmul(th,x)
-# print(y)
-
-# for k in range(0,nx+nh-1):
-# 	for n in range(0,nx):
-# 		if k-n >= 0 and k-n < nh:
-# 			y[k]+=x[n]*h[k-n]
-
-
+y = np.matmul(H,x)
+print(y)
 
 # print(y)
 # #plots
-# plt.stem(range(0,nx+nh-1),y)
-# plt.title('Filter Output using Convolution')
-# plt.xlabel('$n$')
-# plt.ylabel('$y(n)$')
-# plt.grid()# minor
-
+plt.stem(range(0,nx+nh-1),y)
+plt.title('Filter Output using Convolution')
+plt.xlabel('$n$')
+plt.ylabel('$y(n)$')
+plt.grid()# minor
+# plt.show()
 # #If using termux
-# plt.savefig('../../figs/q5/ynconv.pdf')
-# # plt.savefig('../figs/ynconv.eps')
+plt.savefig('../../figs/q5/ynconv.pdf')
 # # subprocess.run(shlex.split("termux-open ../figs/ynconv.pdf"))

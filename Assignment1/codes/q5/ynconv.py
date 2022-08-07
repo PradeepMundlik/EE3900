@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy import linalg
 #If using termux
 import subprocess
 import shlex
@@ -17,22 +18,42 @@ nh=len(h)
 x=np.array([1.0,2.0,3.0,4.0,2.0,1.0])
 nx = len(x)
 
-y = np.zeros(nx+nh-1)
+padding = np.zeros(nx-1,x.dtype)
+print(h)
+f_col = np.concatenate(h,padding)
+f_row = np.concatenate(h[0],padding)
 
-for k in range(0,nx+nh-1):
-	for n in range(0,nx):
-		if k-n >= 0 and k-n < nh:
-			y[k]+=x[n]*h[k-n]
+H = linalg.toeplitz(f_col, f_row)
+print(f_col)
+print(f_row)
+print(H)
 
-print(y)
-#plots
-plt.stem(range(0,nx+nh-1),y)
-plt.title('Filter Output using Convolution')
-plt.xlabel('$n$')
-plt.ylabel('$y(n)$')
-plt.grid()# minor
+print(H.shape)
 
-#If using termux
-plt.savefig('../../figs/q5/ynconv.pdf')
-# plt.savefig('../figs/ynconv.eps')
-# subprocess.run(shlex.split("termux-open ../figs/ynconv.pdf"))
+
+# th = linalg.toeplitz(h)
+# print(repr(th))
+# print(h.shape)
+# print(th)
+# y = np.matmul(th,x)
+# print(y)
+
+# for k in range(0,nx+nh-1):
+# 	for n in range(0,nx):
+# 		if k-n >= 0 and k-n < nh:
+# 			y[k]+=x[n]*h[k-n]
+
+
+
+# print(y)
+# #plots
+# plt.stem(range(0,nx+nh-1),y)
+# plt.title('Filter Output using Convolution')
+# plt.xlabel('$n$')
+# plt.ylabel('$y(n)$')
+# plt.grid()# minor
+
+# #If using termux
+# plt.savefig('../../figs/q5/ynconv.pdf')
+# # plt.savefig('../figs/ynconv.eps')
+# # subprocess.run(shlex.split("termux-open ../figs/ynconv.pdf"))

@@ -472,6 +472,14 @@ The following code plots Fig. \ref{fig:dtft}.
 \caption{$\abs{H\brak{e^{\j\omega}}}$}
 \label{fig:dtft}
 \end{figure}
+
+\item Express $h(n)$ in terms of $H\brak{e^{\j \omega}}$.
+\solution
+\begin{align}
+     h(n) &= \frac{1}{2\pi} \int_{-\pi}^{\pi} H\brak{e^{\j \omega}}e^{j\omega n} \,d\omega \\
+     &= \frac{1}{2\pi} \int_{-\pi}^{\pi} \frac{1 + e^{-2\j\omega}}{1 + \frac12 e^{-\j\omega}} e^{j\omega n} \,d\omega \\
+\end{align}
+
 \end{enumerate}
 
 

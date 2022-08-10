@@ -25,7 +25,7 @@ def h(n):
     elif n > 0:
         return delta(n) + delta(n-2) - 0.5*h(n-1)
     else:
-        return 2*(delta(n+1) + delta(n-1) - h(n+1))
+        return 0
 
 def DFT(k, inp):
     ksum = 0

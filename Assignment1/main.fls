@@ -945,13 +945,13 @@ INPUT ./figs/q4/dtft.pdf
 INPUT figs/q4/dtft.pdf
 INPUT ./figs/q4/dtft.pdf
 INPUT ./figs/q4/dtft.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txi.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT ./figs/q5/hn.pdf
 INPUT ./figs/q5/hn.pdf
 INPUT figs/q5/hn.pdf
 INPUT ./figs/q5/hn.pdf
 INPUT ./figs/q5/hn.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txi.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT ./figs/q5/hndef.pdf
 INPUT ./figs/q5/hndef.pdf
 INPUT figs/q5/hndef.pdf
@@ -967,6 +967,11 @@ INPUT ./figs/q6/6.1.pdf
 INPUT figs/q6/6.1.pdf
 INPUT ./figs/q6/6.1.pdf
 INPUT ./figs/q6/6.1.pdf
+INPUT ./figs/q6/6.2.pdf
+INPUT ./figs/q6/6.2.pdf
+INPUT figs/q6/6.2.pdf
+INPUT ./figs/q6/6.2.pdf
+INPUT ./figs/q6/6.2.pdf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

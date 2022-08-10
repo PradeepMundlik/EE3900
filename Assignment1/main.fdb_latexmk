@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1659855001 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1659855001
+["pdflatex"] 1660031413 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1660031414
   "/etc/texmf/web2c/texmf.cnf" 1656053308 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1659855001 22135 d5bee6e9a2a7722ebfc2da545ee744fb ""
+  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1660031413 23716 5d072fa3bcb8186b0b446d66d34ef9a4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -141,15 +141,16 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1656692504 2798562 986531b10f67a033c3f0c8be4c042707 ""
   "figs/q3/xn.pdf" 1659328003 8981 756f5df220a1f3acc7bc5be8372d03fe ""
   "figs/q3/yn.pdf" 1659851689 9642 9bd7125e9e739ef67718211ad858d9a6 ""
-  "figs/q4/dtft.pdf" 1659357503 15628 5691e4d73d8b59da87472dea1655399e ""
+  "figs/q4/dtft.pdf" 1660027509 15628 e1f2bd33ada9b8247343af438c5698a9 ""
   "figs/q5/hn.pdf" 1659373286 14300 bd2f9b3062112822cda16350a6209866 ""
   "figs/q5/hndef.pdf" 1659373701 14354 8a40f7fde5e045648420616892ba76c1 ""
   "figs/q5/ynconv.pdf" 1659853506 14207 a527ea60ca42f8719bc38ab4e7d42b23 ""
   "figs/q6/6.1.pdf" 1659760773 15512 d688f509cda7b2f90762ca35bf1e27f1 ""
-  "main.aux" 1659855001 4318 9e15acba52f23b1271ad3bff8f51981a "pdflatex"
-  "main.out" 1659855001 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
-  "main.tex" 1659855001 22135 d5bee6e9a2a7722ebfc2da545ee744fb ""
-  "main.toc" 1659855001 430 41eaf2723d475e7907837b3219a36e4c "pdflatex"
+  "figs/q6/6.2.pdf" 1659856307 13759 8cf7b55378f5207bf31a9cce74aa15e8 ""
+  "main.aux" 1660031414 4648 4da27e4dfabe35448c251085b5f133ba "pdflatex"
+  "main.out" 1660031414 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
+  "main.tex" 1660031413 23716 5d072fa3bcb8186b0b446d66d34ef9a4 ""
+  "main.toc" 1660031414 430 5cc7af8c60fd2b2eb7c330ef8243b500 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

@@ -42,7 +42,7 @@
 
 %\usepackage{stmaryrd}
 
-
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 %\usepackage{wasysym}
 %\newcounter{MYtempeqncnt}
 \DeclareMathOperator*{\Res}{Res}
@@ -473,11 +473,11 @@ The following code plots Fig. \ref{fig:dtft}.
 \label{fig:dtft}
 \end{figure}
 
-\item Express $h(n)$ in terms of $H\brak{e^{\j \omega}}$.
+\item Express $h(n)$ in terms of $H\brak{e^{\j \omega}}$. \\
 \solution
 \begin{align}
      h(n) &= \frac{1}{2\pi} \int_{-\pi}^{\pi} H\brak{e^{\j \omega}}e^{j\omega n} \,d\omega \\
-     &= \frac{1}{2\pi} \int_{-\pi}^{\pi} \frac{1 + e^{-2\j\omega}}{1 + \frac12 e^{-\j\omega}} e^{j\omega n} \,d\omega \\
+     &= \frac{1}{2\pi} \int_{-\pi}^{\pi} \frac{1 + e^{-2\j\omega}}{1 + \frac12 e^{-\j\omega}} e^{j\omega n} \,d\omega 
 \end{align}
 
 \end{enumerate}
@@ -485,6 +485,34 @@ The following code plots Fig. \ref{fig:dtft}.
 
 \section{Impulse Response}
 \begin{enumerate}[label=\thesection.\arabic*]
+\item Using long division, find
+\begin{equation}
+     h(n),  n<5
+\end{equation}
+for $H(z)$ in (4.17) \\
+\solution
+\begin{align}
+     H(z) &= \frac{1 + z^{-2}}{1 + \frac{1}{2}z^{-1}} \\
+     1+z^{-2} &= \left(1 + \frac{1}{2}z^{-1}\right)*\left(2z^{-1}-4\right) + 5 \\
+     H(z)&= \frac{\left(1 + \frac{1}{2}z^{-1}\right)*\left(2z^{-1}-4\right) + 5}{1 + \frac{1}{2}z^{-1}} \\
+     &= 2z^{-1}-4 + \frac{5}{1 + \frac{1}{2}z^{-1}}
+\end{align}
+Now,
+\begin{align}
+     \frac{5}{1 + \frac{1}{2}z^{-1}} &= 5\left(1-\frac{z^{-1}}{2}+\frac{z^{-2}}{4}-\frac{z^{-3}}{8}+\dots\right) \\
+     &= 5-\frac{5}{2}z^{-1}+\frac{5}{4}z^{-2}-\frac{5}{8}z^{-3}+\dots \\
+     &= \sum_{n = 0}^{\infty}  5 \left(\frac{-z^{-1}}{2}\right)^n
+\end{align}
+\begin{align}
+     H(z)&= 2z^{-1}-4 + \frac{5}{1 + \frac{1}{2}z^{-1}} \\
+     &= 2z^{-1}-4 + \sum_{n = 0}^{\infty}  5 \left(\frac{-z^{-1}}{2}\right)^n 
+\end{align}
+As $n<5$,
+\begin{align}
+     H(z) &= 2z^{-1}-4 + \sum_{n = 0}^{4}  5 \left(\frac{-z^{-1}}{2}\right)^n \\
+     H(z) &= 1-\frac{1}{2}z^{-1}+\frac{5}{4}z^{-2}-\frac{5}{8}z^{-3}+\frac{5}{16}z^{-4} \\
+     \implies h(n) &= \brak{1, \frac{-1}{2}, \frac{5}{4}, \frac{-5}{8}, \frac{5}{16}}
+\end{align}
 \item \label{prob:impulse_resp}
 Find an expression for $h(n)$ using $H(z)$, given that 
 %in Problem \ref{eq:ztransab} and \eqref{eq:anun}, given that
@@ -503,9 +531,21 @@ H(z) &= \frac{1}{1 + \frac{1}{2}z^{-1}} + \frac{ z^{-2}}{1 + \frac{1}{2}z^{-1}}
 \end{align}
 using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 
-\item Sketch $h(n)$. Is it bounded? Convergent? 
-\\
-\solution The following code plots Fig. \ref{fig:hn}.
+\item Sketch $h(n)$. Is it bounded? Justify theoratically.\\
+\solution 
+\begin{align}
+     \abs{u(n)} &\le 1 \\
+     \abs{\brak{-\frac12}^n} &\le 1 \\
+     \implies \abs{\brak{-\frac12}^n u(n)} &\le 1
+\end{align}
+
+Similarly,
+\begin{align}
+     \abs{\brak{-\frac12}^{n-2} u(n-2)} &\le 1 \\
+     \implies h(n) &\le 2
+\end{align}
+Hence, $h(n)$ is bounded.
+The following code plots Fig. \ref{fig:hn}.
 \begin{lstlisting}
      https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q5/hn.py
 \end{lstlisting}
@@ -517,6 +557,14 @@ using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 \end{figure}
 Fron fig.\ref*{fig:hn} it is clear that, $h(n)$ converges to 0 and it is bounded as well.
 %
+\item Convergent? Justify using the ratio test. \\
+\solution for $n>2$,
+\begin{align}
+     &h(n) =  \left(-\frac{1}{2}\right)^n + \left(-\frac{1}{2}\right)^{n-2} \\
+     &h(n) = 5\left(-\frac{1}{2}\right)^n \\
+     &\abs{\frac{h(n+1)}{h(n)}} = \frac{1}{2} < 1
+\end{align}
+Hence, $h(n)$ is convergent.
 \item The system with $h(n)$ is defined to be stable if
 \begin{equation}
 \sum_{n=-\infty}^{\infty}h(n) < \infty
@@ -538,7 +586,12 @@ These are both sums of infinite geometric progressions with first terms $1$ and 
 \end{align}
 
 Therefore, the system is stable.
+\item Verify result using python code.\\
+\solution 
+\begin{lstlisting}
+     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q5/q5.6.py
 
+\end{lstlisting}
 \item 
 Compute and sketch $h(n)$ using 
 \begin{equation}
@@ -630,6 +683,24 @@ $y(n)$ in  Fig.
 \caption{$y(n)$ from the definition of convolution}
 \label{fig:ynconv}
 \end{figure}
+\item Express the above convolution using a Toeplitz matrix. \\
+\solution
+\begin{align}
+     \vec{x} &= \myvec{1 & 2	 & 3 & 4 & 2 & 1}^\top \\
+	\vec{h} &= \myvec{h_0 & h_1	 & \cdots & h_{N-1}}^\top \\
+     \vec{y} &= \vec{x} \circledast \vec{h} \\
+	\myvec{y_1 \\ y_2 \\ \vdots \\ y_{N+5}} &= \myvec{
+			h_0 & 0 & 0 & \cdots & 0 \\
+			h_1 & h_0 & 0 & \cdots & 0 \\
+			h_2 & h_1 & h_0 & \cdots & 0 \\
+			\vdots & \vdots & \vdots & \ddots & \vdots \\
+			h_{N-1} & h_{N-2} & h_{N-3} & \cdots & h_{N-6} \\
+			0 & h_{N-1} & h_{N-2} & \cdots & h_{N-5} \\
+			0 & 0 & h_{N-1} & \cdots & h_{N-4} \\
+			\vdots & \vdots & \vdots & \ddots & \vdots \\
+			0 & 0 & 0 & \cdots & h_{N-1} }
+               \myvec{1.0\\2.0\\3.0\\4.0\\2.0\\1.0}
+\end{align}
 \item Show that
 \begin{equation}
 y(n) =  \sum_{n=-\infty}^{\infty}x(n-k)h(k)

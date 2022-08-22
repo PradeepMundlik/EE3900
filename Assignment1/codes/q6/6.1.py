@@ -45,5 +45,5 @@ plt.stem(K, np.real(DFT(K, h)))
 plt.ylabel('$H(k)$')
 plt.xlabel('$k$')
 plt.grid()
-
+# plt.show()
 plt.savefig('../../figs/q6/6.1.pdf')

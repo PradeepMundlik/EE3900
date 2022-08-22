@@ -513,6 +513,16 @@ As $n<5$,
      H(z) &= 1-\frac{1}{2}z^{-1}+\frac{5}{4}z^{-2}-\frac{5}{8}z^{-3}+\frac{5}{16}z^{-4} \\
      \implies h(n) &= \brak{1, \frac{-1}{2}, \frac{5}{4}, \frac{-5}{8}, \frac{5}{16}}
 \end{align}
+for general n,
+\begin{align}
+     % h(n) = 2z^{-1}-4+\sum_{n = 0}^{\infty}  5 \left(\frac{-z^{-1}}{2}\right)^{n-2} \\
+     h(n) = 
+     \begin{cases}
+          1 & n = 0 \\
+          -\dfrac{1}{2} & n = 1 \\
+          \dfrac{3}{2} \brak{-\dfrac12}^{n-2} & n \ge 2
+     \end{cases}
+\end{align}
 \item \label{prob:impulse_resp}
 Find an expression for $h(n)$ using $H(z)$, given that 
 %in Problem \ref{eq:ztransab} and \eqref{eq:anun}, given that
@@ -737,7 +747,7 @@ and $H(k)$ using $h(n)$. \\
 \solution
 The following code plots Fig.\ref{fig:6.1} 
 \begin{lstlisting}
-     
+     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q6/6.1.py
 \end{lstlisting}
 \begin{figure}[!ht]
      \centering
@@ -753,7 +763,7 @@ Y(k) = X(k)H(k)
 \solution
 The following code plots Fig.\ref{fig:6.2}
 \begin{lstlisting}
-     
+     https://github.com/PradeepMundlik/EE3900/blob/master/Assignment1/codes/q6/6.2.py
 \end{lstlisting}
 \begin{figure}[!ht]
      \centering

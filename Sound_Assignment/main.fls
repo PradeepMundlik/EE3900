@@ -972,6 +972,16 @@ INPUT ./figs/q6/6.2.pdf
 INPUT figs/q6/6.2.pdf
 INPUT ./figs/q6/6.2.pdf
 INPUT ./figs/q6/6.2.pdf
+INPUT ./figs/q6/yndft.pdf
+INPUT ./figs/q6/yndft.pdf
+INPUT figs/q6/yndft.pdf
+INPUT ./figs/q6/yndft.pdf
+INPUT ./figs/q6/yndft.pdf
+INPUT ./figs/q6/xk.pdf
+INPUT ./figs/q6/xk.pdf
+INPUT figs/q6/xk.pdf
+INPUT ./figs/q6/xk.pdf
+INPUT ./figs/q6/xk.pdf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

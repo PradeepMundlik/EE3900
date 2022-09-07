@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1661141177 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1661141178
+["pdflatex"] 1661749980 "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" "main.pdf" "main" 1661749981
   "/etc/texmf/web2c/texmf.cnf" 1656053308 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1661141178 27233 12c3c42545c2223528b4f01ea16611fc ""
+  "/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex" 1661749979 29533 19dd3027c04b8e231e0575d3e51d816f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -147,10 +147,12 @@
   "figs/q5/ynconv.pdf" 1659853506 14207 a527ea60ca42f8719bc38ab4e7d42b23 ""
   "figs/q6/6.1.pdf" 1660758736 15512 4c3c6957fc5489f793c26c826e15d838 ""
   "figs/q6/6.2.pdf" 1659856307 13759 8cf7b55378f5207bf31a9cce74aa15e8 ""
-  "main.aux" 1661141178 4652 471579ab3cbb131abc1944525f99c0c1 "pdflatex"
-  "main.out" 1661141178 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
-  "main.tex" 1661141178 27233 12c3c42545c2223528b4f01ea16611fc ""
-  "main.toc" 1661141178 430 c0e6b37f6828cc7e69906620c1c164e8 "pdflatex"
+  "figs/q6/xk.pdf" 1661405403 7742 276deaf9961236d269c234a78b805005 ""
+  "figs/q6/yndft.pdf" 1661404760 13840 6d49b396160bfae4edcf63850ab946ff ""
+  "main.aux" 1661749981 4869 b0983b19749a2effdfbba1afc520bb3e "pdflatex"
+  "main.out" 1661749981 736 66fc8cd0e0cba4d9d2ae2db3538b3ff5 "pdflatex"
+  "main.tex" 1661749979 29533 19dd3027c04b8e231e0575d3e51d816f ""
+  "main.toc" 1661749981 430 c0e6b37f6828cc7e69906620c1c164e8 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

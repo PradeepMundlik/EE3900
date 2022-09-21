@@ -1,9 +1,9 @@
-PWD /home/pradeep/Documents/IITH Academics/EE3900/Assignment1
+PWD /home/pradeep/Documents/IITH Academics/EE3900/Sound_Assignment
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex
+INPUT /home/pradeep/Documents/IITH Academics/EE3900/Sound_Assignment/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -982,6 +982,21 @@ INPUT ./figs/q6/xk.pdf
 INPUT figs/q6/xk.pdf
 INPUT ./figs/q6/xk.pdf
 INPUT ./figs/q6/xk.pdf
+INPUT ./figs/q6/6.6.pdf
+INPUT ./figs/q6/6.6.pdf
+INPUT figs/q6/6.6.pdf
+INPUT ./figs/q6/6.6.pdf
+INPUT ./figs/q6/6.6.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
@@ -994,6 +1009,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb

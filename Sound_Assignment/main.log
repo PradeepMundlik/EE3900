@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.1)  29 AUG 2022 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.1)  21 SEP 2022 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex"
-(/home/pradeep/Documents/IITH Academics/EE3900/Assignment1/main.tex
+**"/home/pradeep/Documents/IITH Academics/EE3900/Sound_Assignment/main.tex"
+(/home/pradeep/Documents/IITH Academics/EE3900/Sound_Assignment/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -663,269 +663,486 @@ LaTeX Info: Redefining \nameref on input line 73.
 \c@example=\count332
 \c@definition=\count333
 \c@rem=\count334
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 202.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 202.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 205.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 205.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 202.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 205.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 202.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 205.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 202.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 205.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 202.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 205.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 215.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 218.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 7777) in paragraph at lines 234--248
+Underfull \hbox (badness 7777) in paragraph at lines 237--251
 []\OT1/txr/m/n/12 You will find a spec-tro-gram at [][]$https :
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 234--248
+Underfull \hbox (badness 5374) in paragraph at lines 237--251
 \OT1/txr/m/n/12 / / academo . org / demos / spectrum-[]analyzer$[][]. Up-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
 []\OT1/txr/m/n/12 The out-put of the python script
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
 \OT1/txr/m/n/12 in Prob-lem []2.3[] is the au-dio file
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
 \OT1/txr/m/n/12 Sound[]With[]ReducedNoise.wav. Play
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 266--269
+Underfull \hbox (badness 6927) in paragraph at lines 269--272
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The key strokes as well as
  []
 
-<figs/q3/xn.pdf, id=39, 462.52798pt x 346.89601pt>
+<figs/q3/xn.pdf, id=49, 462.52798pt x 346.89601pt>
 File: figs/q3/xn.pdf Graphic file (type pdf)
 <use figs/q3/xn.pdf>
-Package pdftex.def Info: figs/q3/xn.pdf  used on input line 284.
+Package pdftex.def Info: figs/q3/xn.pdf  used on input line 287.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./figs/q3/xn.pdf>]
-<figs/q3/yn.pdf, id=99, 462.52798pt x 346.89601pt>
+<figs/q3/yn.pdf, id=107, 462.52798pt x 346.89601pt>
 File: figs/q3/yn.pdf Graphic file (type pdf)
 <use figs/q3/yn.pdf>
-Package pdftex.def Info: figs/q3/yn.pdf  used on input line 317.
+Package pdftex.def Info: figs/q3/yn.pdf  used on input line 320.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 324.
+(hyperref)                removing `math shift' on input line 327.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 324.
+(hyperref)                removing `math shift' on input line 327.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2 <./figs/q3/yn.pdf>]
 
-LaTeX Warning: Command \j invalid in math mode on input line 445.
+LaTeX Warning: Command \j invalid in math mode on input line 448.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 445.
+LaTeX Warning: Command \j invalid in math mode on input line 448.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 447.
+LaTeX Warning: Command \j invalid in math mode on input line 450.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 447.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 459.
+LaTeX Warning: Command \j invalid in math mode on input line 450.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 464.
+LaTeX Warning: Command \j invalid in math mode on input line 462.
 
-<figs/q4/dtft.pdf, id=166, 462.52798pt x 346.89601pt>
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 462.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 467.
+
+<figs/q4/dtft.pdf, id=174, 462.52798pt x 346.89601pt>
 File: figs/q4/dtft.pdf Graphic file (type pdf)
 <use figs/q4/dtft.pdf>
-Package pdftex.def Info: figs/q4/dtft.pdf  used on input line 471.
+Package pdftex.def Info: figs/q4/dtft.pdf  used on input line 474.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-LaTeX Warning: Command \j invalid in math mode on input line 472.
+LaTeX Warning: Command \j invalid in math mode on input line 475.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 472.
+LaTeX Warning: Command \j invalid in math mode on input line 475.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 476.
+LaTeX Warning: Command \j invalid in math mode on input line 479.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 481.
+LaTeX Warning: Command \j invalid in math mode on input line 484.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 481.
+LaTeX Warning: Command \j invalid in math mode on input line 484.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 481.
+LaTeX Warning: Command \j invalid in math mode on input line 484.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 481.
+LaTeX Warning: Command \j invalid in math mode on input line 484.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 481.
+LaTeX Warning: Command \j invalid in math mode on input line 484.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 481.
+LaTeX Warning: Command \j invalid in math mode on input line 484.
 
+[3 <./figs/q4/dtft.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
- [3 <./figs/q4/dtft.pdf>]
-<figs/q5/hn.pdf, id=244, 462.52798pt x 346.89601pt>
-File: figs/q5/hn.pdf Graphic file (type pdf)
-<use figs/q5/hn.pdf>
-Package pdftex.def Info: figs/q5/hn.pdf  used on input line 564.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figs/q5/hn.pdf, id=285, 462.52798pt x 346.89601pt>
+File: figs/q5/hn.pdf Graphic file (type pdf)
+<use figs/q5/hn.pdf>
+Package pdftex.def Info: figs/q5/hn.pdf  used on input line 567.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 1688) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./figs/q5/hn.pdf>]
-<figs/q5/hndef.pdf, id=352, 462.52798pt x 346.89601pt>
+<figs/q5/hndef.pdf, id=357, 462.52798pt x 346.89601pt>
 File: figs/q5/hndef.pdf Graphic file (type pdf)
 <use figs/q5/hndef.pdf>
-Package pdftex.def Info: figs/q5/hndef.pdf  used on input line 662.
+Package pdftex.def Info: figs/q5/hndef.pdf  used on input line 665.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-<figs/q5/ynconv.pdf, id=356, 462.52798pt x 346.89601pt>
+<figs/q5/ynconv.pdf, id=361, 462.52798pt x 346.89601pt>
 File: figs/q5/ynconv.pdf Graphic file (type pdf)
 <use figs/q5/ynconv.pdf>
-Package pdftex.def Info: figs/q5/ynconv.pdf  used on input line 692.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \vbox (badness 6876) has occurred while \output is active []
-
- [6 <./figs/q5/hndef.pdf> <./figs/q5/ynconv.pdf>]
-
-LaTeX Warning: Command \j invalid in math mode on input line 744.
-
-<figs/q6/6.1.pdf, id=459, 462.52798pt x 346.89601pt>
-File: figs/q6/6.1.pdf Graphic file (type pdf)
-<use figs/q6/6.1.pdf>
-Package pdftex.def Info: figs/q6/6.1.pdf  used on input line 754.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-<figs/q6/6.2.pdf, id=461, 462.52798pt x 346.89601pt>
-File: figs/q6/6.2.pdf Graphic file (type pdf)
-<use figs/q6/6.2.pdf>
-Package pdftex.def Info: figs/q6/6.2.pdf  used on input line 770.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-LaTeX Warning: Command \j invalid in math mode on input line 777.
-
-<figs/q6/yndft.pdf, id=464, 462.52798pt x 346.89601pt>
-File: figs/q6/yndft.pdf Graphic file (type pdf)
-<use figs/q6/yndft.pdf>
-Package pdftex.def Info: figs/q6/yndft.pdf  used on input line 789.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-<figs/q6/xk.pdf, id=466, 462.52798pt x 346.89601pt>
-File: figs/q6/xk.pdf Graphic file (type pdf)
-<use figs/q6/xk.pdf>
-Package pdftex.def Info: figs/q6/xk.pdf  used on input line 802.
+Package pdftex.def Info: figs/q5/ynconv.pdf  used on input line 695.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./figs/q6/6.1.pdf> <./figs/q6/6.2.pdf>]
-Overfull \hbox (17.77036pt too wide) detected at line 839
+ [6 <./figs/q5/hndef.pdf> <./figs/q5/ynconv.pdf>]
+
+LaTeX Warning: Command \j invalid in math mode on input line 747.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<figs/q6/6.1.pdf, id=462, 462.52798pt x 346.89601pt>
+File: figs/q6/6.1.pdf Graphic file (type pdf)
+<use figs/q6/6.1.pdf>
+Package pdftex.def Info: figs/q6/6.1.pdf  used on input line 757.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+<figs/q6/6.2.pdf, id=464, 462.52798pt x 346.89601pt>
+File: figs/q6/6.2.pdf Graphic file (type pdf)
+<use figs/q6/6.2.pdf>
+Package pdftex.def Info: figs/q6/6.2.pdf  used on input line 773.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 780.
+
+<figs/q6/yndft.pdf, id=467, 462.52798pt x 346.89601pt>
+File: figs/q6/yndft.pdf Graphic file (type pdf)
+<use figs/q6/yndft.pdf>
+Package pdftex.def Info: figs/q6/yndft.pdf  used on input line 792.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+[7 <./figs/q6/6.1.pdf>]
+<figs/q6/xk.pdf, id=545, 462.52798pt x 346.89601pt>
+File: figs/q6/xk.pdf Graphic file (type pdf)
+<use figs/q6/xk.pdf>
+Package pdftex.def Info: figs/q6/xk.pdf  used on input line 805.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (17.77036pt too wide) detected at line 842
 []
  []
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 841.
+LaTeX Warning: Command \j invalid in math mode on input line 844.
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 852--854
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./figs/q6/6.2.pdf> <./figs/q6/yndft.pdf> <./figs/q6/xk.pdf>]
+Underfull \hbox (badness 5260) in paragraph at lines 855--857
 \OT1/txr/m/n/12 where $\OMS/txsy/m/n/12 ^^N$ \OT1/txr/m/n/12 de-notes the Hadamard prod-uct
  []
 
-[8 <./figs/q6/yndft.pdf> <./figs/q6/xk.pdf>] (./main.aux)
+<figs/q6/6.6.pdf, id=648, 462.52798pt x 346.89601pt>
+File: figs/q6/6.6.pdf Graphic file (type pdf)
+<use figs/q6/6.6.pdf>
+Package pdftex.def Info: figs/q6/6.6.pdf  used on input line 876.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+ [9 <./figs/q6/6.6.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1031.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1031.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1036.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1288.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1293.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1293.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1293.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1293.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1299.
+
+
+Overfull \hbox (9.13892pt too wide) detected at line 1299
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1398
+
+ []
+
+
+Overfull \hbox (7.96732pt too wide) detected at line 1414
+[]
+ []
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 1440.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+
+LaTeX Warning: Reference `fig:butter-imp' on page 13 undefined on input line 1465.
+
+
+LaTeX Warning: Reference `fig:butter-out' on page 13 undefined on input line 1467.
+
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 1473.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 1473.
+ [13] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 66FC8CD0E0CBA4D9D2AE2DB3538B3FF5;736.
+(rerunfilecheck)             Checksum: EDFC8E4B8727EDBA1BB28508A87337F9;882.
  ) 
 Here is how much of TeX's memory you used:
- 16434 strings out of 478287
- 257288 string characters out of 5849290
- 833953 words of memory out of 5000000
- 34174 multiletter control sequences out of 15000+600000
- 539835 words of font info for 181 fonts, out of 8000000 for 9000
+ 16655 strings out of 478287
+ 260071 string characters out of 5849290
+ 818953 words of memory out of 5000000
+ 34253 multiletter control sequences out of 15000+600000
+ 542527 words of font info for 185 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,17n,63p,296b,1678s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 196961 bytes).
+ 60i,17n,63p,305b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (13 pages, 239432 bytes).
 PDF statistics:
- 741 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 203 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 994 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 337 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

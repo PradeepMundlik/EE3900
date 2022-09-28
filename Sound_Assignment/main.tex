@@ -1353,8 +1353,8 @@ where we define $x_3(k) = x(4k)$, $x_4(k) = x(4k + 2)$, $x_5(k) = x(4k + 1)$, an
     \end{align}
     compute the DFT  
 		using 
-	    \eqref{eq:dft-mat-def}
-     \\
+          \\
+          \eqref{eq:dft-mat-def}
 \solution Download the Python code from 
 \begin{lstlisting}
      7.11.py
@@ -1472,30 +1472,30 @@ The codes can be run all at once by typing a small shell script
 \begin{lstlisting}
 $ for file in 8_2_*.py; do python ${file}; done
 \end{lstlisting}
-% \begin{figure}[!htb]
-% 	\includegraphics[width=\columnwidth]{figs/8_2_1.png}
-% 	\caption{Plot of $h(n)$}
-% 	\label{fig:butter-imp}
-% \end{figure}
-% \begin{figure}[!htb]
-% 	\includegraphics[width=\columnwidth]{figs/8_2_2.png}
-% 	\caption{Filter frequency response}
-% 	\label{fig:butter-resp}
-% \end{figure}
-% \begin{figure}[!htb]
-% 	\includegraphics[width=\columnwidth]{figs/8_2_3.png}
-% 	\caption{Plot of $y(n)$}
-% 	\label{fig:butter-out}
-% \end{figure}
-\item What is the sampling frequency of the input signal?
+\begin{figure}[!htb]
+	\includegraphics[width=\columnwidth]{figs/q8/8.2.1.pdf}
+	\caption{Plot of $h(n)$}
+	\label{fig:butter-imp}
+\end{figure}
+\begin{figure}[!htb]
+	\includegraphics[width=\columnwidth]{figs/q8/8.2.2.pdf}
+	\caption{Filter frequency response}
+	\label{fig:butter-resp}
+\end{figure}
+\begin{figure}[!htb]
+	\includegraphics[width=\columnwidth]{figs/q8/8.2.3.pdf}
+	\caption{Plot of $y(n)$}
+	\label{fig:butter-out}
+\end{figure}
+\item What is the sampling frequency of the input signal? \\
 \solution
 Sampling frequency $f_s = 44.1$ kHZ.
 \item
-What is type, order and  cutoff frequency of the above Butterworth filter?
+What is type, order and  cutoff frequency of the above Butterworth filter? \\
 \solution
 The given Butterworth filter is low pass with order 4 and cutoff frequency 4 kHz.
 \item
-Modify the code with different input parameters and get the best possible output.
+Modify the code with different input parameters and get the best possible output. \\
 \solution
 A better filtering was found on setting the order of the filter to be 7.
 \end{enumerate}

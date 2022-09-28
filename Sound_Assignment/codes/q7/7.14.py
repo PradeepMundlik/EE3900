@@ -27,22 +27,28 @@ for i in range(10):
     X = fftmtx(1<<i)
     tl.append(time.time() - st)
 
-plt.plot(np.arange(10), tl, '.')
+# plt.plot(np.arange(10), tl, '.')
 x = np.linspace(1, 11, 10)
+
 popt, pcov = curve_fit(nlgn, x, tl)
-p1 = nlgn(x, *popt)
+p1 = nlgn(x, *popt) #fft
 plt.plot(np.insert(x, 0, 0), np.insert(p1, 0, 0))
+
 popt, pcov = curve_fit(nsq, x, tl)
-p1 = nsq(x, *popt)
+p1 = nsq(x, *popt) #dft
 plt.plot(np.insert(x, 0, 0), np.insert(p1, 0, 0))
+
 popt, pcov = curve_fit(nsqlgn, x, tl)
-p1 = nsqlgn(x, *popt)
+p1 = nsqlgn(x, *popt) 
 plt.plot(np.insert(x, 0, 0), np.insert(p1, 0, 0))
+
 popt, pcov = curve_fit(ncb, x, tl)
-p1 = ncb(x, *popt)
+p1 = ncb(x, *popt) 
 plt.plot(np.insert(x, 0, 0), np.insert(p1, 0, 0))
-plt.savefig('../../figs/q7/7.14.pdf')
-# plt.show()
+
+plt.legend(["fff(nlogn)","dft(n*n)","nsqlogn","n^3"])
+# plt.savefig('../../figs/q7/7.14.pdf')
+plt.show()
 
 '''
 This is to truncate very small values to zero

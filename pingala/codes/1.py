@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 #Problem 1.1
 n = 100
@@ -31,5 +32,10 @@ tb = b*(1/t[:99])
 eps = 1e-6
 ans = 8/89
 sb = np.cumsum(tb)
+plt.plot(sb)
+plt.plot(np.linspace(0,100,100),ans*np.ones(100))
+plt.legend(["$\sum b_k/10^k$","8/89"])
+plt.grid()
+plt.show()
 if (abs(sb[-1] - ans) < eps): print("1.4 correct")
 else: print("1.4 incorrect")
